@@ -2,6 +2,11 @@
 
 **Due October 6 (W) @ 9 PM**
 
+## <span style="color: red">WARNING</span>
+
+**THIS MILESTONE IS NOT YET COMPLETE, AT LEAST AS OF 2021-09-06.  
+I WILL REMOVE THIS WARNING WHEN IT IS GOOD TO GO.**
+
 **PLEASE:** Put this milestone in a Git branch called 'milestone-2'. If you're not sure how to do this, you know how to find me!
 
 ## Overview
