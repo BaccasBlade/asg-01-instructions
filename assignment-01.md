@@ -24,14 +24,11 @@ After the first milestone has been submitted, you will be placed in pairs accord
 
 ## Starting Files
 
-You can grab the starting template for this assignment by accepting this GitHub Classroom Assignment: XXX
+You can grab the starting template for this assignment by accepting this GitHub Classroom Assignment: https://classroom.github.com/a/PSone5Ia
 
-There's not much here...just:
+There's not much here - just a README.txt that you'll need to fill out - everything else will be created by you.
 
-- a README.txt that you'll need to fill out, and
-- the travel photos used for the page
-
-Everything else will be created by you.
+You'll also need the travel photos used for the page: https://github.com/MRU-CSIS-3512-202104-001/asg-01-images
 
 ## Submission
 
