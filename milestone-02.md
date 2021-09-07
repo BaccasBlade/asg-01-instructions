@@ -2,13 +2,6 @@
 
 **Due October 6 (W) @ 9 PM**
 
-## <span style="color: red">WARNING</span>
-
-**THIS MILESTONE IS NOT YET COMPLETE, AT LEAST AS OF 2021-09-06.  
-I WILL REMOVE THIS WARNING WHEN IT IS GOOD TO GO.**
-
-**PLEASE:** Put this milestone in a Git branch called 'milestone-2'. If you're not sure how to do this, you know how to find me!
-
 ## Overview
 
 With a number of weeks of JS under your belt, you're now in a position to make your SPA a bit more interactive.
@@ -23,13 +16,13 @@ We don't want to get too far ahead of ourselves, though - much of the assignment
 
 This is a bit of a problem for us, since we haven't yet covered the topics of Chapter 10 which would help us consume these APIs!
 
-This isn't a problem, though - there's always a way around temporary setbacks like this!
+This isn't a BIG problem, though - there's always a way around temporary setbacks like this!
 
-### Getting 'round
+### Getting 'round the prob
 
 For the Country, City, Images, and Languages APIs, we'll bring the data typically delivered via an API request into our app using JSON data in files as covered in Exercise 8.14 in Lab 8 and Section 8.7.4 in the text.
 
-For the Google Maps API - it's not part of this milestone's requirements. That was easy!
+For the Google Maps API - it's not part of this milestone's requirements. You can just use a placeholder of some sort there. That was easy!
 
 #### Cleaning Up
 
@@ -39,19 +32,25 @@ For example, if you pull down all the countries via https://www.randyconnolly.co
 
 > "The Bahamas, officially the Commonwealth of the Bahamas, is a country consisting of more than 3,000 islands, cays and islets in the Atlantic Ocean, north of Cuba and Hispaniola (the Dominican Republic and Haiti), northwest of the Turks and Caicos Islands and southeast of the US state of Florida. Its capital is Nassau on the island of New Providence. Geographically, the Bahamas lie in the same island chain as Cuba, Hispaniola and the Turks and Caicos Islands; **the designation of "Bahamas" usually** refers to the country and not the geographic chain. The country's population, numbering around 354,000, lives on a land area of 13,939 km2 (5,382 sq mi)."
 
-See that bolded part? That's gonna make your JSON.parse unhappy. And that will make you unhappy. And that will make me unhappy.
+Depending on your Chrome extensions, you might see something like this instead:
 
-You'll need to escape those things properly using a double-backlash (`\\"`). So the previous Bahamas example becomes:
+> "...Islands; **the designation of `\"Bahamas\"` usually** refers to ..."
 
-> "The Bahamas, officially the Commonwealth of the Bahamas, is a country consisting of more than 3,000 islands, cays and islets in the Atlantic Ocean, north of Cuba and Hispaniola (the Dominican Republic and Haiti), northwest of the Turks and Caicos Islands and southeast of the US state of Florida. Its capital is Nassau on the island of New Providence. Geographically, the Bahamas lie in the same island chain as Cuba, Hispaniola and the Turks and Caicos Islands; **the designation of \\\\"Bahamas\\\\" usually** refers to the country and not the geographic chain. The country's population, numbering around 354,000, lives on a land area of 13,939 km2 (5,382 sq mi)."
+In either case, see that bolded part? That's gonna make your JSON.parse unhappy. And that will make you unhappy. And that will make me unhappy.
+
+You'll need to escape those things properly using a double-backlash (`\\"`). So in the js/json file you create, make sure the previous Bahamas example becomes:
+
+> "...Islands; **the designation of \\\\"Bahamas\\\\" usually** refers to ...."
+
+Use your tools wisely - find and replace is your friend here!
 
 ## Your Mark
 
 Just like milestone 1:
 
-- if you meet **all** the requirements below, you get the full 5%
-- if you are missing **one** of the requirements below, you get 2.5%
-- if you are missing **two or more** of the requirements below, you get 0%
+- if you meet **all** the requirements below, your group's mark is 100%
+- if you are missing **one** of the requirements below, your group's mark is 50%
+- if you are missing **two or more** of the requirements below, your group's mark is 0%
 
 ## Non-Perkable Requirements
 
@@ -59,13 +58,11 @@ These requirements **cannot** be postponed through use of a Perk:
 
 - [ ] the web page is hosted through Netlify
 
-- [ ] when a user goes to the web page,
-
-- [ ] the HTML links to at least one external JS file that contains the JS necessary to complete the Perkable Requirements.
+- [ ] the HTML links to at least one external JS file that contains the JS necessary to complete the Perkable Requirements below.
 
   > _Though not necessary for this milestone, you will want to start thinking of reasonable ways to split up your JS into separate files - putting all your JS in one file will be unacceptable for your final submission of this assignment!_
 
-- [ ] the `README.md` file contains the names of the students who completed this milestone and the URL Netlify has provided for your app (it'll look like `https://blahblahblah.netlify.app`)
+- [ ] the `README.txt` file contains the names of the students who completed this milestone and the URL Netlify has provided for your app (it'll look like `https://blahblahblah.netlify.app`)
 
 ## Perkable Requirements
 
@@ -84,31 +81,42 @@ By spending one Perk, you can extend your submission deadline **for a single req
 
 - [ ] the **Default View** is presented when a user lands on the page
 
-  - [ ] if the screen size has a width in the 320px to 425px range, a reasonable mobile layout is presented
-  - [ ] if the screen size has a width > 678px, either the layout shown on the assignment writeup is presented, or if you've gotten approval for a different layout, that desktop layout is presented
+  - [ ] if the screen size has a width in the 320px to 425px range, a reasonable mobile layout is shown
+  - [ ] if the screen size has a width >=1024 px, either the layout shown on the assignment writeup is presented, or if you've gotten approval for a different layout, that desktop layout is shown
 
-- [ ] no images are present on Netlify - all images are hosted on Cloudinary
+- [ ] the travel photos section of the Default View must follow these requirements:
 
-- [ ] the place where the Google Map should appear should display a reasonably-sized placeholder image from a placeholder service (like placeholder.com)
+  - [ ] `<picture>` elements must be used, and
+  - [ ] at mobile size, the images should be 75px squares, and
+  - [ ] at desktop size, the images should be 150px squares, and
+  - [ ] all images are hosted on Cloudinary, and
+  - [ ] all images must be dynamically generated via Cloudinary URLs
 
 - [ ] you must have a layout that uses CSS grid and/or flexbox; no floats or tables can be used
 
-### additional requirments for milestone 2
+### new requirments for milestone 2
 
-- [ ] when the user arrives at the page, the country list section of the Default View must display a alphabetically sorted list of all country names
+- [ ] the place where the Google Map should appear should display a placeholder of some kind, like an image from a placeholder service (like placeholder.com)
+
+- [ ] when the user arrives at the page, the Country Cist section of the Default View must display a alphabetically sorted list of all country names
 
 - [ ] **at least one** country filter (name, image available, continent) must be working and displaying results in alphabetical order:
 
   - [ ] a properly-working **name filter** will show only the names of those countries that start with the letters (case-insensitive) that are entered by the user. This list must change each time a key is pressed.
   - [ ] a properly-working **image available** filter will only show the names of those countries that have images available. (There should be 21 such countries.)
-  - [ ] a properly-working **continent** filter will only show the names of those countries from continents that have been selected by the user. Remember that multiple such continent selections can be active: for example, if the user selects Antarctica and Oceania, there should be 32 country names displayed.
+  - [ ] a properly-working **continent** filter will only show the names of those countries from continents that have been selected by the user. Remember that multiple such continent selections can be active: for example, if the user selects Antarctica **and** Oceania, there should be 32 country names displayed.
 
-- [ ] clicking on a country name in the Country List section must cause at least the name of the country to appear in the Country & City Details section
+- [ ] clicking on a country name in the Country List section must cause at least the name of the country to appear in the Country & City Details section, though you can show further info if you want
 
-- [ ] clicking on a country name in the Country List section must cause one of these changes to the Travel Photos sections:
-  - [ ] if there are no photos for the selected country, then a reasonable message should be shown, or
-  - [ ] if there are photos for the selected country, all of them should be displayed.
+- [ ] clicking on a country name in the Country List section must cause a change in the Travel Photos section:
+
+  - [ ] if there are no photos available for the selected country, then a reasonable message should be shown, or
+  - [ ] if there are photos available for the selected country, all of them should be displayed.
 
 ## A Demonstration
 
-Here's a demo of me checking milestone 2 for a sample assignment I made: xxxx
+I **_was_** originally going to show another demo like I did for milestone 1, but then reckoned such a screencast would influence your work more than I wanted. Being able to picture in your mind what a client is (probably) thinking is a necessary skill to develop, so we might as well develop it.
+
+This might seem like a cop-out, but it truly is not.
+
+Naturally, if you have any questions about these requirements, I am very happy - honestly! - to chat with you about them!
