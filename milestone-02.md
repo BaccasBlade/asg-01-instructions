@@ -64,6 +64,8 @@ These requirements **cannot** be postponed through use of a Perk:
 
 - [ ] the `README.txt` file contains the names of the students who completed this milestone and the URL Netlify has provided for your app (it'll look like `https://blahblahblah.netlify.app`)
 
+- [ ] **all** JS must be in external files. No inline or embedded JS can be used.
+
 ## Perkable Requirements
 
 These requirements **can** be postponed through use of a Perk.
