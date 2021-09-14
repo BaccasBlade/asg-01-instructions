@@ -29,6 +29,8 @@ When you're at the step where you're choosing the repository to link to, make su
 
 ![organization account](images/cap-2v2.png)
 
+> _Why? Remember that when you accept a GitHub Classroom assignment, the resulting repo that's created is not yours - it's the 3512 organization's! You just have access to it._
+
 ### Cloudinary
 
 The assignment images will be hosted on Cloudinary.
