@@ -23,11 +23,11 @@ The process isn't very difficult, though I do understand it will be new to most,
 
 When you're at the step where you're choosing the repository to link to, make sure you change the drop down from your GitHub account:
 
-![your GH account](images/cap-1.png)
+![your GH account](images/cap-1v2.png)
 
 ...to our 3512 organization:
 
-![organization account](images/cap-2.png)
+![organization account](images/cap-2v2.png)
 
 ### Cloudinary
 
