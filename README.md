@@ -19,6 +19,16 @@ You will need to host your site on Netlify. You should clone the assignment repo
 
 The process isn't very difficult, though I do understand it will be new to most, if not all, of you. Netlify has pretty reasonable documentation and tutorials. I did a search for "hosting static website on netlify" and found [this one](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/).
 
+#### GOTCHA
+
+When you're at the step where you're choosing the repository to link to, make sure you change the drop down from your GitHub account:
+
+![your GH account](images/cap-1.png)
+
+...to our 3512 organization:
+
+![organization account](images/cap-2.png)
+
 ### Cloudinary
 
 The assignment images will be hosted on Cloudinary.

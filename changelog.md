@@ -13,3 +13,7 @@ This document will hold info about what changes have been made to the assignment
 ### 2021-09-12
 
 - Adding Hosting section to README.
+
+### 2021-09-14
+
+- Add Netlify gotcha to hosting section of README.
