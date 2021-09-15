@@ -18,3 +18,7 @@ This document will hold info about what changes have been made to the assignment
 
 - Add Netlify gotcha to hosting section of README.
 - Add restrictions on JS placement.
+
+### 2021-09-15
+
+- Add submission instructions to milestone 1.
