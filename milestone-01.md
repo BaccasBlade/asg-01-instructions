@@ -64,6 +64,14 @@ By spending one Perk, you can extend your submission deadline **for a single req
 
 A demo is worth a thousand checkpoints, so here's a video of me "marking" a sample assignment I made for milestone 1: [walkthrough [17:55]](https://youtu.be/c_Vxsh_AN_s)
 
-## How To "Submit"
+## Submission Process
 
-This should be straightforward: for any commit that you want me to "mark"
+There's a screencast [22:08] of the process here: https://youtu.be/iSiFZ0Vt3jU
+
+If you're comfortable making branches and getting them up to GitHub, here's the process in a nutshell:
+
+1. Set Netlify up to deploy all branches pushed to your GitHub repository
+   1. Deploys > Branches > Edit settings => Choose "All" for Branch deploys
+2. Create a branch in your local repo called "submit".
+3. Push that branch up to GitHub as well.
+4. If for whatever reason, you decide you want to submit something else, just repeat the process, naming your branch "submitX", where "X" is some number. (So submit1, submit2, etc). I'll just mark the latest submission.

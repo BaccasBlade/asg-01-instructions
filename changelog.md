@@ -23,3 +23,4 @@ This document will hold info about what changes have been made to the assignment
 
 - Added clarification to non-perkable requirement.
 - Changed "Cloudinary URL" to "Cloudinary image transformations"
+- Add submission instructions to milestone 1.
