@@ -22,6 +22,8 @@ These requirements **cannot** be postponed through the use of Perks:
 
 - [ ] the landing page's HTML links to an external JS file that displays a (hopefully amusing) message to console
 
+  > **clarification:** _while the general requirements in [assignment-01.md] state that you must have "just a single HTML page", this does not mean you don't need additional types of files, like CSS and JS files_
+
 - [ ] the `README.txt` file contains the name of the student who completed the milestone and the URL Netlify has provided for your app (it'll look like `https://blahblahblah.netlify.app`)
 
 ## Perkable Requirements
@@ -56,8 +58,12 @@ By spending one Perk, you can extend your submission deadline **for a single req
   - [ ] at mobile size, the images should be 75px squares, and
   - [ ] at desktop size, the images should be 150px squares, and
   - [ ] all images are hosted on Cloudinary, and
-  - [ ] all images must be dynamically generated via Cloudinary URLs
+  - [ ] all images must be dynamically generated via Cloudinary image transformations
 
 ## A Demonstration
 
 A demo is worth a thousand checkpoints, so here's a video of me "marking" a sample assignment I made for milestone 1: [walkthrough [17:55]](https://youtu.be/c_Vxsh_AN_s)
+
+## How To "Submit"
+
+This should be straightforward: for any commit that you want me to "mark"
