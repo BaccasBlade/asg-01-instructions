@@ -22,3 +22,7 @@ This document will hold info about what changes have been made to the assignment
 ### 2021-09-15
 
 - Add submission instructions to milestone 1.
+
+### 2021-09-16
+
+- Added "grid/flexbox used to display photos over multiple rows" requirement

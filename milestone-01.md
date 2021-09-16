@@ -55,6 +55,7 @@ By spending one Perk, you can extend your submission deadline **for a single req
   - [ ] there must be at least 2 different images used, and
   - [ ] at mobile size, the images should be 75px squares, and
   - [ ] at desktop size, the images should be 150px squares, and
+  - [ ] CSS (grid and/or flesbox) must be used to get the seven images to fill multiple rows at both mobile and desktop sizes, and
   - [ ] all images are hosted on Cloudinary, and
   - [ ] all images must be dynamically generated via Cloudinary URLs
 
