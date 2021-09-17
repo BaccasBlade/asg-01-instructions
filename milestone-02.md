@@ -1,6 +1,6 @@
 # Assignment 01 - Milestone 02
 
-**Due October 6 (W) @ 9 PM**
+**Due October 13 (W) @ 9 PM**
 
 ## Overview
 
