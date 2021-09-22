@@ -74,10 +74,42 @@
    margin: 2%;
    height: 100%;
 }
-@media only screen and (max-width: 425px) and (min-width: 320px){
+@media only screen and (max-width: 425px){
    img{
       height: 75px;
       width: 75px;
+   }
+   .maincontainer{
+      display: flex;
+      text-align: center;
+      width: auto;
+      flex-direction: column;
+   }
+   .secondcontainer{
+     
+      width: auto;
+      display: flex;
+      flex-direction: column;
+   }
+   .thirdcontainer{
+      
+      width: auto;
+      display: flex;
+      flex-direction: column;
+   }
+   .fourthcontainer{
+      
+         width: auto;
+         display: flex;
+         flex-direction: column;
+      
+   }
+   .container{
+      flex:1;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
    }
  }
    
